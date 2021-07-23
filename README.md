@@ -29,20 +29,43 @@ Intall git in Miniconda to clone this environment locally to your computer.
 $ conda install -c conda-forge git
 ```
 
-Clone the rs_cytoscape repository locally to your computer
+Clone the rs_cytoscape repository locally to your computer (at a directory of your choice: "dir").
 ```console
-
+$ git clone https://github.com/Arts-of-coding/rs_cytoscape.git
 ```
 
+Install all nessesary software packages by creating the cytoscape environment.
+```console
+$ conda env create -f dir/envs_yml/cytoscape.yml
+```
 
+Activate the cytoscape environment
+```console
+$ conda activate cytoscape
+```
 
-Download the cytoscape.yml within this repository (
-
-conda env create -f environment.yml
+Installing jupyter lab extensions for using jupyter notebook.
+```console
+conda install -c anaconda python
+```
+```console
+conda install -c conda-forge jupyterlab
+```
+Run jupyter notebook
+```console
+$ jupyter notebook
+```
 
 # Python automation tutorial
 
 
 # Loading in the rsnumber-gene network in cytoscape for linking the wikipathway
 Install cytargetlinker in the Cytoscape app (Apps > App Manager > search Cytargetlinker > install). Load in the generated csv file (readme file 1) with edges in cytoscape.
+
+# notes of interest
+If the jupyter widgets do not show wihtin jupyter notebook then execute the following command within the console:
+
+```console
+jupyter nbextension enable --py widgetsnbextension
+```
 
