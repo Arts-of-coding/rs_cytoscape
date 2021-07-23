@@ -57,15 +57,24 @@ $ jupyter notebook
 ```
 
 # Python automation tutorial
+Run the project.ipynb in jupyter notebook.
 
+# Linking the generated network to pathways in the Cytoscape app.
+Download (https://cytoscape.org/download.html) and install Cytoscape (run the .exe file).
 
-# Loading in the rsnumber-gene network in cytoscape for linking the wikipathway
 Install cytargetlinker in the Cytoscape app (Apps > App Manager > search Cytargetlinker > install). Load in the generated csv file (readme file 1) with edges in cytoscape.
 
-# notes of interest
-If the jupyter widgets do not show wihtin jupyter notebook then execute the following command within the console:
+Import the netowrk (Cytoscape > import Network from Filesystem). See image below for selecting the right settings.
+
+Download the wikipathways dataset from https://cytargetlinker.github.io/pages/linksets/wikipathways and unzip the dataset on your system.
+
+Extend the network (Cytoscape > apps > cytargetlinker > extend network). See image below for choosing the right settings.
+
+Now the Ensembl genes are linked to the pathways and the final network is generated!
+
+# Notes of interest
+If the jupyter widgets do not show wihtin jupyter notebook then execute the following command within the console before restarting jupyter notebook:
 
 ```console
 jupyter nbextension enable --py widgetsnbextension
 ```
-
