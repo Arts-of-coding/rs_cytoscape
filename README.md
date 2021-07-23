@@ -46,10 +46,10 @@ $ conda activate cytoscape
 
 Installing jupyter lab extensions for using jupyter notebook.
 ```console
-conda install -c anaconda python
+$ conda install -c anaconda python
 ```
 ```console
-conda install -c conda-forge jupyterlab
+$ conda install -c conda-forge jupyterlab
 ```
 Run jupyter notebook
 ```console
@@ -73,8 +73,8 @@ Extend the network (Cytoscape > apps > cytargetlinker > extend network). See ima
 Now the Ensembl genes are linked to the pathways and the final network is generated!
 
 # Notes of interest
-If the jupyter widgets do not show wihtin jupyter notebook then execute the following command within the console before restarting jupyter notebook:
+If the jupyter widgets do not show wihtin jupyter notebook then execute the following command within your activated cytoscape environment before restarting jupyter notebook:
 
 ```console
-jupyter nbextension enable --py widgetsnbextension
+$ jupyter nbextension enable --py widgetsnbextension
 ```
