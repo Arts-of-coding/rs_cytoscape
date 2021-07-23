@@ -62,9 +62,9 @@ Run the project.ipynb in jupyter notebook.
 # Linking the generated network to pathways in the Cytoscape app.
 Download (https://cytoscape.org/download.html) and install Cytoscape (run the .exe file).
 
-Install cytargetlinker in the Cytoscape app (Apps > App Manager > search Cytargetlinker > install). Load in the generated csv file (readme file 1) with edges in cytoscape.
+Install cytargetlinker in the Cytoscape app (Apps > App Manager > search Cytargetlinker > install). Load in the generated edges.csv file in cytoscape.
 
-Import the netowrk (Cytoscape > import Network from Filesystem). See image below for selecting the right settings.
+Import the network (Cytoscape > import Network from Filesystem). See image below for selecting the right settings.
 
 ![Networktable](https://user-images.githubusercontent.com/78762941/126752666-49366503-d30f-4fea-9714-48535d04cd6b.PNG)
 
