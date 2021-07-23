@@ -26,9 +26,13 @@ $ conda config --add channels conda-forge
 Intall git in Miniconda to clone this environment locally to your computer.
 
 ```console
-conda install -c conda-forge git
+$ conda install -c conda-forge git
 ```
 
+Clone the rs_cytoscape repository locally to your computer
+```console
+
+```
 
 
 
