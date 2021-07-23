@@ -1,7 +1,7 @@
-# Installing Miniconda
+# Installing Miniconda.
 Install Miniconda within an existing Linux environment (Ubuntu).
 
-Retrieve the latest Miniconda
+Retrieve the latest Miniconda.
 ```console
 $ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
@@ -16,7 +16,7 @@ Run the executable miniconda script.
 $ ./Miniconda3-latest-Linux-x86_64.sh
 ```
 
-# Installing the right environment for Python automation in Miniconda
+# Installing the right environment for Python automation in Miniconda.
 Install the nessesary channels if Bioconda has not been used before. 
 ```console
 $ conda config --add channels defaults
@@ -39,7 +39,7 @@ Install all nessesary software packages by creating the cytoscape environment.
 $ conda env create -f dir/envs_yml/cytoscape.yml
 ```
 
-Activate the cytoscape environment
+Activate the cytoscape environment.
 ```console
 $ conda activate cytoscape
 ```
@@ -51,12 +51,12 @@ $ conda install -c anaconda python
 ```console
 $ conda install -c conda-forge jupyterlab
 ```
-Run jupyter notebook
+Run jupyter notebook.
 ```console
 $ jupyter notebook
 ```
 
-# Python automation tutorial
+# Python automation in jupyter notebook.
 Run the project.ipynb in jupyter notebook.
 
 # Linking the generated network to pathways in the Cytoscape app.
@@ -76,7 +76,7 @@ Extend the network (Cytoscape > apps > cytargetlinker > extend network). See ima
 
 Now the Ensembl genes are linked to the pathways and the final network is generated!
 
-# Notes of interest
+# Notes of interest.
 If the jupyter widgets do not show wihtin jupyter notebook then execute the following command within your activated cytoscape environment before restarting jupyter notebook:
 
 ```console
