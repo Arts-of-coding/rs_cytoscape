@@ -65,11 +65,13 @@ Download (https://cytoscape.org/download.html) and install Cytoscape (run the .e
 Install cytargetlinker in the Cytoscape app (Apps > App Manager > search Cytargetlinker > install). Load in the generated csv file (readme file 1) with edges in cytoscape.
 
 Import the netowrk (Cytoscape > import Network from Filesystem). See image below for selecting the right settings.
+
 ![Networktable](https://user-images.githubusercontent.com/78762941/126752666-49366503-d30f-4fea-9714-48535d04cd6b.PNG)
 
 Download the wikipathways dataset from https://cytargetlinker.github.io/pages/linksets/wikipathways and unzip the dataset on your system.
 
 Extend the network (Cytoscape > apps > cytargetlinker > extend network). See image below for choosing the right settings.
+
 ![Choices](https://user-images.githubusercontent.com/78762941/126750932-95f7c9f6-6d50-4b14-b5e8-f67a4e0f8924.PNG)
 
 Now the Ensembl genes are linked to the pathways and the final network is generated!
