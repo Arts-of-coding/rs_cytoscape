@@ -36,7 +36,7 @@ $ git clone https://github.com/Arts-of-coding/rs_cytoscape.git
 
 Install all nessesary software packages by creating the cytoscape environment.
 ```console
-$ conda env create -f dir/envs_yml/cytoscape.yml
+$ conda env create -f dir/env_yml/cytoscape.yml
 ```
 
 Activate the cytoscape environment.
