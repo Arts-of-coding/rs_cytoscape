@@ -1,4 +1,4 @@
-name: base
+name: cytoscape.yml
 channels:
   - conda-forge
   - bioconda
@@ -62,4 +62,3 @@ dependencies:
   - zstd=1.4.9=ha95c52a_0
   - pip:
     - setuptools==56.2.0
-#prefix: /vol/mbconda/julian
